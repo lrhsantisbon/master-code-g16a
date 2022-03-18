@@ -1,14 +1,36 @@
 body{
-    background-color: bisque;
+    background-color: rgb(255, 215, 155);
 }
+
 header{
-    background-color: rgb(42, 165, 114);
+    background-color: rgb(38, 139, 206);
 }
 .blanco{
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .rojo{
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titulo1{
+    font-size: 25px;
+}
+
+.parrafo1{
+    border: rgb(0, 119, 255) solid 8px;
+    border-top-color: burlywood;
+    border-right-color: yellow;
+    border-bottom-color: chartreuse;
+}
+
+.titulo2{
+    font-size: 25px;
+}
+.parrafo2{
+    border: rgb(25, 0, 255) solid 8px;
+    border-top-color: burlywood;
+    border-right-color: yellow;
+    border-bottom-color: chartreuse;
 }
