@@ -1,0 +1,14 @@
+body{
+    background-color: bisque;
+}
+header{
+    background-color: rgb(42, 165, 114);
+}
+.blanco{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.rojo{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
