@@ -1,3 +1,10 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+</style>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+</style>
+
 body{
     background-color: rgb(255, 215, 155);
 }
@@ -5,19 +12,15 @@ body{
 header{
     background-color: rgb(38, 139, 206);
 }
-.blanco{
-    font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+nav{
+    font-family: 'Noto Sans KR', sans-serif;
 }
-.rojo{
-    font-size: 15px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+
 
 .titulo1{
     font-size: 25px;
 }
-
 .parrafo1{
     border: rgb(0, 119, 255) solid 8px;
     border-top-color: burlywood;
@@ -33,4 +36,9 @@ header{
     border-top-color: burlywood;
     border-right-color: yellow;
     border-bottom-color: chartreuse;
+}
+
+
+p{
+    font-family: 'Fredoka', sans-serif;
 }
