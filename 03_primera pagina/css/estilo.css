@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
 
 header{
     background-color: rgb(255, 255, 255);
-    list-style-type: none;
     text-align: center;
     padding: 0;
     margin: 0;
@@ -9,14 +17,26 @@ header{
 
 nav{
     background-color: bisque;
-    list-style-type: none;
     text-align: center;
-    padding: 0;
-    margin: 0;
+    word-spacing: 25px;
+    padding: 5;
+    margin: 5;
     }
 
 nav li{
     display: inline-block;
     font-size: 18px;
     padding: 15px;
+}
+
+p{
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+}
+
+.imagenes{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
 }
