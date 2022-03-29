@@ -1,0 +1,107 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+}
+aside{
+    background-color: #607d8b;
+    height: 80vh;
+    width: 15%;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: #90a4ae;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+}
+header div{
+    display: flex;
+    flex-direction: row;
+}
+header nav{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+header nav a, header nav span{
+    margin: 5px;
+}
+h1{
+    font-size: 2rem;
+    margin: 0;
+}
+main{
+    display: flex;
+    background-color: #cfd8dc;
+    flex-direction: row;
+    height: 80vh;
+    width: 100%;
+}
+aside nav{
+    display: flex;
+    flex-direction: column;
+}
+aside nav a{
+    border-bottom: 1px black solid;
+    color: black;
+    font-size: 0.8rem;
+    padding: 5px 0;
+    text-align: center;
+    text-decoration: none;
+}
+aside nav a:hover{
+    background-color: orange;
+    border-radius: 5px;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    height: 80vh;
+    width: 85%;
+    overflow-y: scroll;
+}
+section article{
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+    height:380px;
+}
+section article h4{
+
+}
+footer{
+    align-items: center;
+    display: flex;
+    background-color: #90a4ae;
+    color: black;
+    flex-direction: row;
+    height: 10vh;
+    justify-content: center;
+    width: 100%;
+}
+footer p{
+    margin: 0;
+}
+footer a{
+    margin-left: 5px;
+    color: black;
+}
+.logo{
+    border-radius: 25px;
+    height: 100%;
+}
+.usericon{
+    border-radius: 50%;
+    height: 100%;
+}
+.galeria{
+    height: 240px;
+}
