@@ -68,8 +68,7 @@ section{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
+    gap: 10px 10px;
     height: 80vh;
     width: 85%;
     overflow-y: scroll;

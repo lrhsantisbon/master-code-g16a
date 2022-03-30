@@ -1,0 +1,170 @@
+header{
+    position: fixed; 
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: #f8f8f8;
+    justify-content: space-between;
+    position:sticky;
+    height: 10vh;
+    width: 100%;
+    font-size: 0.5rem;
+}
+header div{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin-left: 10px;
+}
+header nav{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin-right: 10px;
+
+}
+header nav a{
+    text-decoration: none;
+    color: gray;
+}
+
+header form{
+    width: 70%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    margin-top:5px;
+    background:rgba(184, 178, 178, 0.295);
+    outline: none;
+    border-radius: 25px;
+}
+
+header form div input{
+    align-self: center;
+    font-size: 2rem;
+    display: flex;
+    padding-left: 30px;
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border-style: none;
+    outline: none;
+    border-radius: 25px;
+}
+
+.finder:hover{
+    background-color:rgba(139, 139, 139, 0.479);
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+}
+
+main{    
+    display: flex;
+    column-count: 3;
+    background-color:#f8f8f8;
+    flex-direction: row;
+    height: 90vh;
+    width: 100%;
+}
+
+
+section{
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: stretch;
+    align-items: flex-start;
+    width: 100%;
+    overflow-y: scroll;
+    place-items: center;
+}
+
+footer{
+    align-items: center;
+    display: flex;
+    background-color: #90a4ae;
+    color: black;
+    flex-direction: row;
+    height: 50px;
+    justify-content: center;
+    width: 100%;
+}
+footer p{
+    margin: 0;
+}
+footer a{
+    margin-left: 5px;
+    color: black;
+}
+
+
+.logo{
+    border-radius: 50%;
+    height: 26px;
+    max-width: 26px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+
+.navbarInicio{
+    background-color: black;
+    color:white;
+    margin: 2px;
+    padding: 12px;
+    border-radius: 25px;
+}
+
+.navbarHoy{
+    margin: 2px;
+    padding: 12px;
+    border-radius: 25px;
+}
+
+.navbarHoy:hover{
+    background-color: rgba(199, 194, 194, 0.295);
+    margin: 2px;
+    padding: 12px;
+    border-radius: 25px;
+}
+
+
+.notificacion, .mensajes, .usera{
+    background-color: cfd8dc;
+    margin: 2px;
+    padding: 12px;
+    border-radius: 25px;
+    height: 15px;
+    width: 14px;
+}
+
+.usera:hover, .notificacion:hover, .mensajes:hover{
+    background-color: rgba(199, 194, 194, 0.295);
+    margin: 2px;
+    padding: 12px;
+    border-radius: 25px;
+    height: 15px;
+    width: 14px;
+}
+
+.card-image{
+    width: 250px;
+    align-self: center;
+    border-radius: 25px;
+}
+
+.card-image:hover{
+    border-radius: 30px;
+}
