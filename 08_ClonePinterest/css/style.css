@@ -56,7 +56,7 @@ header form div input{
 }
 
 .finder:hover{
-    background-color:rgba(139, 139, 139, 0.479);
+    background-color:rgba(139, 139, 139, 0.534);
 }
 
 
@@ -69,13 +69,11 @@ body{
 
 main{    
     display: flex;
-    column-count: 3;
     background-color:#f8f8f8;
     flex-direction: row;
     height: 90vh;
     width: 100%;
 }
-
 
 section{
     margin: 0;
@@ -84,12 +82,13 @@ section{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    justify-items: stretch;
+    justify-items:stretch;
     align-items: flex-start;
     width: 100%;
     overflow-y: scroll;
     place-items: center;
 }
+
 
 footer{
     align-items: center;
@@ -108,7 +107,11 @@ footer a{
     margin-left: 5px;
     color: black;
 }
-
+footer section div a img{
+    height: 30px;
+    border-radius: 25%;
+    margin: 2px;
+}
 
 .logo{
     border-radius: 50%;
@@ -160,11 +163,89 @@ footer a{
 }
 
 .card-image{
-    width: 250px;
-    align-self: center;
-    border-radius: 25px;
 }
 
 .card-image:hover{
     border-radius: 30px;
 }
+
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.card-image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.container:hover .card-image {
+    opacity: 0.3;
+}
+.container:hover .middle {
+    opacity: 1;
+}
+.text {
+    background-color: #aa0404;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    border-radius: 25px;
+    align-self: flex-start;
+}
+
+
+
+
+
+    @media all and (min-width: 100px) {
+        .card-image {
+        width: 80px;
+        align-self: center;
+        border-radius: 25px;
+        margin: 5px;
+        }
+        }
+
+    @media all and (min-width: 450px) {
+        .card-image {
+        width: 180px;
+        align-self: center;
+        border-radius: 25px;
+        margin: 5px;
+        }
+        }
+    @media all and (min-width: 900px) {
+        .card-image {
+        width: 250px;
+        align-self: center;
+        border-radius: 25px;
+        margin: 5px;
+        }
+        }
+    @media all and (min-width: 925px) {
+        .card-image {
+        width: 300px;
+        align-self: center;
+        border-radius: 25px;
+        margin: 5px;
+        }
+        }
+
+
+
